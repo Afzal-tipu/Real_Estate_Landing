@@ -41,7 +41,7 @@ const CountryDropdown = () => {
         {countries.map((country, index) => {
           return (
             <MenuItem
-              className=" hover:text-violet-700 dark:hover:text-white transition cursor-pointer"
+              className=" hover:text-violet-700 dark:hover:text-white dark:hover:bg-gray-800 transition cursor-pointer py-2 px-2 rounded-md"
               key={index}
               as="li"
               onClick={() => setCountry(country)}

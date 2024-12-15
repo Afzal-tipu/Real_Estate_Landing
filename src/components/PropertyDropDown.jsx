@@ -42,7 +42,7 @@ const PropertyDropdown = () => {
         {properties.map((property, index) => {
           return (
             <MenuItem
-              className=" hover:text-violet-700 transition cursor-pointer"
+              className=" hover:text-violet-700 dark:hover:text-white dark:hover:bg-gray-800 transition cursor-pointer py-2 px-2 rounded-md"
               key={index}
               as="li"
               onClick={() => setProperty(property)}
